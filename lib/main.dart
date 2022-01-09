@@ -72,8 +72,8 @@ class _AnimationAppState extends State<AnimationApp> {
                       ),
                       Center(
                         child: Text(
-                          "Beautiful Place",
-                          style: GoogleFonts.poppins(color: Colors.blue, fontSize: 28, fontWeight: FontWeight.bold,)
+                          "Beautiful",
+                          style: GoogleFonts.poppins(color: Colors.cyan, fontSize: 28, fontWeight: FontWeight.bold,)
                         ),
                       ),
                     ],

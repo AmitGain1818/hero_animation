@@ -28,7 +28,7 @@ class _DetialsScreenState extends State<DetialsScreen> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        "Beautiful Place",
+                        "Beautiful",
                         style: GoogleFonts.lato(fontSize: 42, fontWeight: FontWeight.bold, color: Colors.pink)
                       ),
                     ],
