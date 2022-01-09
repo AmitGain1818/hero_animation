@@ -41,7 +41,6 @@ class _AnimationAppState extends State<AnimationApp> {
         padding: const EdgeInsets.all(8.0),
         child: Container(
           child: SizedBox(
-            height: 500.0,
             child: Card(
               elevation: 2.0,
               child: InkWell(
@@ -61,7 +60,7 @@ class _AnimationAppState extends State<AnimationApp> {
                         borderRadius: BorderRadius.circular(8.0),
                         child: Center(
                           child: Hero(
-                            tag: "img",
+                            tag: "image",
                             child: Image.network(
                               "https://images.unsplash.com/photo-1641677317132-045e9e367d5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=60", height: 200, width: 300,
                             ),
